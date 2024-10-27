@@ -35,7 +35,7 @@ public class treningsmaskiner {
         String kommando;
 
         while(true){
-            System.out.println("Dette er et program med oversikt over alle treningsmaskiner på Pumphouse. Velg en handling: ");
+            System.out.println("\nDette er et program med oversikt over alle treningsmaskiner på Pumphouse. Velg en handling: ");
             System.out.println(" ");
             System.out.println("1. Se maskiner");
             System.out.println("2. Legg til en maskin");
