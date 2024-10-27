@@ -1,18 +1,25 @@
-## Getting Started
+## TRENINGSMASKINER PÅ PUMPHOUSE
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Dette prosjektet er et program som lar deg administrere en liste over treningsmaskiner på treningssenteret Pumphouse. Programmet tilbyr funksjoner for å legge til, fjerne og søke etter maskiner i listen.
 
-## Folder Structure
+## FUNKSJONER
 
-The workspace contains two folders by default, where:
+- Legge til maskiner: brukere kan legge til nye maskiner i listen via terminalen.
+- Fjerne maskiner: Maskiner kan fjernes fra listen etter behov.
+- Søke etter maskiner: Søkefunksjonen lar deg søke etter en spesifikk maskin i listen. Søk ett ord, så kommer opp alle maskinene som inneholder det ordet.
+- Du kan også se hele listen av treningsmaskiner. 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## PROGRAMMERINGSSPRÅK
+- Java
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## GETTING STARTED
+- Klon prosjektet til din maskin
+- Naviger til mappen i terminalen:
+  cd /stien/til/mappen
+- Kompiler koden:
+  javac Treningsmaskiner.java
+- Kjør programmet:
+  java treningsmaskiner
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
