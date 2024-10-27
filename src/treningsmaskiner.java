@@ -7,7 +7,7 @@ public class treningsmaskiner {
         //ny arrayliste 
         ArrayList<String> listeOverMaskiner = new ArrayList<String>();
 
-        //legger til nye med add() eller i kommandolinje
+        //legger til nye med add() eller i terminalen
         listeOverMaskiner.add("Belt squat (ATX)");
         listeOverMaskiner.add("Glute drive (Nautilus)");
         listeOverMaskiner.add("Hybrid inner/outer thigh (Prime)");
@@ -35,7 +35,8 @@ public class treningsmaskiner {
         String kommando;
 
         while(true){
-            System.out.println("\nDette er et program med oversikt over alle treningsmaskiner på Pumphouse. Velg en handling: ");
+            System.out.println("Dette er et program med oversikt over alle treningsmaskiner på Pumphouse. Velg en handling: ");
+            System.out.println(" ");
             System.out.println("1. Se maskiner");
             System.out.println("2. Legg til en maskin");
             System.out.println("3. Fjern en maskin");
